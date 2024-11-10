@@ -1,0 +1,116 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Font Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Headings Styling */
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #34495e;
+  margin-bottom: 0.5em;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Antwerpen_Stadhuis_crop1_2006-05-28.jpg/1920px-Antwerpen_Stadhuis_crop1_2006-05-28.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+/* Hero Text with Outline */
+.hero h1 {
+  font-size: 3.2em;
+  font-weight: bold;
+  color: #f1c40f;
+  text-shadow: -2px -2px 0 #2c3e50, 2px -2px 0 #2c3e50, -2px 2px 0 #2c3e50, 2px 2px 0 #2c3e50; /* Outlined effect */
+  margin-bottom: 0.3em;
+}
+
+.hero p {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #ecf0f1;
+  text-shadow: -1px -1px 0 #2c3e50, 1px -1px 0 #2c3e50, -1px 1px 0 #2c3e50, 1px 1px 0 #2c3e50;
+  margin-top: 0.5em;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about, .memories, .visit {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.highlight-item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 260px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add Image to Highlight Items */
+.highlight-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.highlight-item h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  color: #2980b9;
+  margin-bottom: 0.5em;
+}
+
+.highlight-item p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Why Visit
